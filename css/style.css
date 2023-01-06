@@ -1,9 +1,77 @@
 #font_size{
     font-size: 22px;
     
+    
+}
+
+#font-size-help{
+    font-size: 17px ;
+    display: flex;
+    justify-content: center;
+}
+
+#font-size-help-1{
+    font-size: 22px ;
+    display: flex;
+    justify-content: center;
 }
 
 
+#text-right{
+    z-index: 5px;
+    position: relative;
+    right: 12px;
+    
+}
+
+#font-size-1{
+ font-size: large; 
+ display: flex;
+ justify-content: center;  
+}
+
+
+#font-wight-1{
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+}
+
+#font-wight-1{
+    font-weight: 700;
+    justify-content: center;
+    display: flex;
+}
+
+#font-wight2{
+    font-weight: 700;
+    font-size: 20px;
+    justify-content: center;
+    display: flex;
+}
+
+
+#font-wight{
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+}
+
+
+.dashed-line {
+    z-index: 5px;
+    border: 1px dashed black;
+    width: 200px;
+
+  }
+
+/* #text-alian-about{
+     z-index: 5px;
+     position: relative;left: 200px;
+     top: 20px;
+     max-width: 700px;
+}
+ */
 
 
 
@@ -16,22 +84,3 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-[
