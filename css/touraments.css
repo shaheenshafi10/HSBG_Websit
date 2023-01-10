@@ -96,7 +96,7 @@ background-blend-mode: screen;
     border-radius: 0;
     border: none;
     border-bottom: 1px solid #fff;
-    padding-left: 30px;
+    padding-left: 0px;
     padding-right: 0;
     letter-spacing: 1px;
     -webkit-transition: all 0.2s ease-in-out;
@@ -188,7 +188,7 @@ background-blend-mode: screen;
   
   .btn {
     cursor: pointer;
-    border-radius: 40px;
+   
     -webkit-box-shadow: none !important;
     box-shadow: none !important;
     font-size: 15px; }
@@ -211,3 +211,47 @@ background-blend-mode: screen;
           background: #00ef73;
           color: #fff; }
   
+
+
+          .input{
+            height: 48px;
+            background: rgba(0, 0, 0, 0.05);
+            color: rgba(255, 255, 255, 0.8) !important;
+            font-size: 14px;
+            -webkit-box-shadow: none;
+            box-shadow: none;
+            border-radius: 0;
+            border: none;
+            border-bottom: 1px solid #fff;
+            padding-left: 0px;
+            padding-right: 0;
+            letter-spacing: 1px;
+            -webkit-transition: all 0.2s ease-in-out;
+            -o-transition: all 0.2s ease-in-out;
+            transition: all 0.2s ease-in-out; }
+            @media (prefers-reduced-motion: reduce) {
+              .form-control {
+                -webkit-transition: none;
+                -o-transition: none;
+                transition: none; } }
+            .form-control::-webkit-input-placeholder {
+              /* Chrome/Opera/Safari */
+              color: rgba(255, 255, 255, 0.8) !important; }
+            .form-control::-moz-placeholder {
+              /* Firefox 19+ */
+              color: rgba(255, 255, 255, 0.8) !important; }
+            .form-control:-ms-input-placeholder {
+              /* IE 10+ */
+              color: rgba(255, 255, 255, 0.8) !important; }
+            .form-control:-moz-placeholder {
+              /* Firefox 18- */
+              color: rgba(255, 255, 255, 0.8) !important; }
+            .form-control:focus, .form-control:active {
+              outline: none !important;
+              -webkit-box-shadow: none;
+              box-shadow: none;
+              background: rgba(0, 0, 0, 0.07);
+              border-color: #00ef73; }
+          #option-color{
+            color: rgba(0, 0, 0, 0.8) !important;
+          }
