@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="js/bootstrap.min.js">
+    <link rel="stylesheet" href="js/bootstrap.bundle.js">
+    <link rel="stylesheet" href="css/sidebar.css">
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet"><link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet"><link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet"><link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+   
+    <link rel="stylesheet" href="css/touraments.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+<!--Bootstrap js Files Links End-->
+<link rel="icon" href="logo/HSBG_Tournaments.png" type="image/x-icon">
+    <title>Tournaments</title>
+</head>
+
+
+
+<!-- <body style="background-color: #0f2537; color: #fff;"> -->
+<body>
+    <!--SIDEBAR STARTING-->
+<button type="button" class="mobile-nav-toggle d-xl-none"><i class="icofont-navigation-menu"></i></button> 
+<header id="header">
+<div class="d-flex flex-column">
+<nav class="nav-menu">
+<ul>
+<li><a href="index.html"><i class="bx bx-home"></i><span>Home</span></a></li>
+
+
+<li><a href="information.html"><i><svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" fill="currentColor" class="bi bi-info-circle" viewBox="0 0 16 16"><path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/><path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+</svg></i><span>Information</span></a></li>
+
+
+<li><a href="about.html"><i class="bx bx-user"></i> <span>About</span></a></li>
+<li><a href="tournaments.html"><i class="bx bx-server"></i><span>Tournaments</span></a></li>
+<li class="active"><a href="Profile.html"><i class="bx bx-server"></i><span>Profile</span></a></li>
+<li><a href="help.html"><i><svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" fill="currentColor" class="bi bi-question-circle" viewBox="0 0 16 16"><path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/><path d="M5.255 5.786a.237.237 0 0 0 .241.247h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286zm1.557 5.763c0 .533.425.927 1.01.927.609 0 1.028-.394 1.028-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94z"/></svg></i>
+    <span>Help</span></a></li>
+</ul></nav></div></header>
+  <!--SIDEBAR END-->
+
+<!--STARTING LOGO section-->
+<main id="main">
+    <section class="ftco-section">
+        <div class="container">
+     
+        <div class="row justify-content-center">
+        <div class="col-md-6 col-lg-4">
+        <div class="login-wrap py-5">
+        <div class="img d-flex align-items-center justify-content-center" style="background-image: url(logo/HSBG_Tournaments.png);"></div>
+       
+        <form>
+            <div class="row">
+                <input type="text" class="form-control" placeholder="User Name" id="username">
+                <input type="email" class="form-control" id="inputEmail4" placeholder="Email Address">
+                <input type="text" class="form-control" placeholder="First Name">
+                <input type="text" class="form-control" placeholder="Last Name">
+                <input type="text" class="form-control" placeholder="Street">
+                <input type="text" class="form-control" placeholder="City">
+                <input type="text" class="form-control" placeholder="Postal Code">
+                <select size="1" name="Country" id="Country" class="input">
+                    <option value="ALB" id="option-color">Albania</option>
+                    <option value="DZA"  id="option-color">Algeria</option>
+                    <option value="ARG"  id="option-color">Argentina</option>
+                    <option value="ARM"  id="option-color">Armenia</option>
+                    <option value="AUS"  id="option-color">Australia</option>
+                    <option value="AUT"  id="option-color">Austria</option>
+                    <option value="AZE"  id="option-color">Azerbaijan</option>
+                    <option value="BHR"  id="option-color">Bahrain</option>
+                    <option value="BGD"  id="option-color">Bangladesh</option>
+                    <option value="BLR"  id="option-color">Belarus</option>
+                    <option value="BEL"  id="option-color">Belgium</option>
+                    <option value="BLZ"  id="option-color">Belize</option>
+                    <option value="BTN"  id="option-color">Bhutan</option>
+                    <option value="BOL"  id="option-color">Bolivia</option>
+                    <option value="BIH"  id="option-color">Bosnia and Herzegovina</option>
+                    <option value="BWA"  id="option-color">Botswana</option>
+                    <option value="BRA"  id="option-color">Brazil</option>
+                    <option value="BRN"  id="option-color">Brunei</option>
+                    <option value="BGR"  id="option-color">Bulgaria</option>
+                    <option value="KHM"  id="option-color">Cambodia</option>
+                    <option value="CMR"  id="option-color">Cameroon</option>
+                    <option value="CAN"  id="option-color">Canada</option>
+                    <option value="029"  id="option-color">Caribbean</option>
+                    <option value="CHL"  id="option-color">Chile</option>
+                    <option value="CHN" id="option-color">China</option>
+                    <option value="COL" id="option-color">Colombia</option>
+                    <option value="COD" id="option-color">Congo (DRC)</option>
+                    <option value="CRI" id="option-color">Costa Rica</option>
+                    <option value="CIV" id="option-color">Côte d’Ivoire</option>
+                    <option value="HRV" id="option-color">Croatia</option>
+                    <option value="CUB" id="option-color">Cuba</option>
+                    <option value="CZE" id="option-color">Czech Republic</option>
+                    <option value="DNK" id="option-color">Denmark</option>
+                    <option value="DOM" id="option-color">Dominican Republic</option>
+                    <option value="ECU" id="option-color">Ecuador</option>
+                    <option value="EGY" id="option-color">Egypt</option>
+                    <option value="SLV" id="option-color">El Salvador</option>
+                    <option value="ERI" id="option-color">Eritrea</option>
+                    <option value="EST" id="option-color">Estonia</option>
+                    <option value="FRO" id="option-color">Faroe Islands</option>
+                    <option value="FIN" id="option-color">Finland</option>
+                    <option value="FRA" id="option-color">France</option>
+                    <option value="GEO" id="option-color">Georgia</option>
+                    <option value="DEU" id="option-color">Germany</option>
+                    <option value="GRC" id="option-color">Greece</option>
+                    <option value="GRL"  id="option-color">Greenland</option>
+                    <option value="GTM"  id="option-color">Guatemala</option>
+                    <option value="HTI" id="option-color">Haiti</option>
+                    <option value="HND" id="option-color">Honduras</option>
+                    <option value="HKG" id="option-color">Hong Kong SAR</option>
+                    <option value="HUN" id="option-color">Hungary</option>
+                    <option value="ISL" id="option-color">Iceland</option>
+                    <option value="IND" id="option-color">India</option>
+                    <option value="IDN" id="option-color">Indonesia</option>
+                    <option value="IRN" id="option-color">Iran</option>
+                    <option value="IRQ" id="option-color">Iraq</option>
+                    <option value="IRL" id="option-color">Ireland</option>
+                    <option value="ISR"  id="option-color">Israel</option>
+                    <option value="ITA" id="option-color">Italy</option>
+                    <option value="JAM" id="option-color">Jamaica</option>
+                    <option value="JPN" id="option-color">Japan</option>
+                    <option value="JOR" id="option-color">Jordan</option>
+                    <option value="KAZ" id="option-color">Kazakhstan</option>
+                    <option value="KEN" id="option-color">Kenya</option>
+                    <option value="KOR" id="option-color">Korea</option>
+                    <option value="KWT" id="option-color">Kuwait</option>
+                    <option value="KGZ" id="option-color">Kyrgyzstan</option>
+                    <option value="LAO" id="option-color">Laos</option>
+                    <option value="419" id="option-color">Latin America</option>
+                    <option value="LVA" id="option-color">Latvia</option>
+                    <option value="LBN" id="option-color">Lebanon</option>
+                    <option value="LBY" id="option-color">Libya</option>
+                    <option value="LIE" id="option-color">Liechtenstein</option>
+                    <option value="LTU" id="option-color">Lithuania</option>
+                    <option value="LUX" id="option-color">Luxembourg</option>
+                    <option value="MAC" id="option-color">Macao SAR</option>
+                    <option value="MKD" id="option-color">Macedonia, FYRO</option>
+                    <option value="MYS" id="option-color">Malaysia</option>
+                    <option value="MDV" id="option-color">Maldives</option>
+                    <option value="MLI" id="option-color">Mali</option>
+                    <option value="MLT" id="option-color">Malta</option>
+                    <option value="MEX" id="option-color">Mexico</option>
+                    <option value="MDA" id="option-color">Moldova</option>
+                    <option value="MCO" id="option-color">Monaco</option>
+                    <option value="MNG" id="option-color">Mongolia</option>
+                    <option value="MNE" id="option-color">Montenegro</option>
+                    <option value="MAR" id="option-color">Morocco</option>
+                    <option value="MMR" id="option-color">Myanmar</option>
+                    <option value="NPL" id="option-color">Nepal</option>
+                    <option value="NLD" id="option-color">Netherlands</option>
+                    <option value="NZL" id="option-color">New Zealand</option>
+                    <option value="NIC" id="option-color">Nicaragua</option>
+                    <option value="NGA" id="option-color">Nigeria</option>
+                    <option value="NOR" id="option-color">Norway</option>
+                    <option value="OMN" id="option-color">Oman</option>
+                    <option value="PAK" id="option-color">Pakistan</option>
+                    <option value="PAN" id="option-color">Panama</option>
+                    <option value="PRY" id="option-color">Paraguay</option>
+                    <option value="PER" id="option-color">Peru</option>
+                    <option value="PHL" id="option-color">Philippines</option>
+                    <option value="POL" id="option-color">Poland</option>
+                    <option value="PRT" id="option-color">Portugal</option>
+                    <option value="PRI" id="option-color">Puerto Rico</option>
+                    <option value="QAT" id="option-color">Qatar</option>
+                    <option value="REU" id="option-color">Réunion</option>
+                    <option value="ROU" id="option-color">Romania</option>
+                    <option value="RUS" id="option-color">Russia</option>
+                    <option value="RWA" id="option-color">Rwanda</option>
+                    <option value="SAU" id="option-color">Saudi Arabia</option>
+                    <option value="SEN" id="option-color">Senegal</option>
+                    <option value="SRB" id="option-color">Serbia</option>
+                    <option value="SGP" id="option-color">Singapore</option>
+                    <option value="SVK" id="option-color">Slovakia</option>
+                    <option value="SVN" id="option-color">Slovenia</option>
+                    <option value="SOM" id="option-color">Somalia</option>
+                    <option value="ZAF" id="option-color">South Africa</option>
+                    <option value="ESP" id="option-color">Spain</option>
+                    <option value="LKA" id="option-color">Sri Lanka</option>
+                    <option value="SWE" id="option-color">Sweden</option>
+                    <option value="CHE" id="option-color">Switzerland</option>
+                    <option value="SYR" id="option-color">Syria</option>
+                    <option value="TWN" id="option-color">Taiwan</option>
+                    <option value="TJK" id="option-color">Tajikistan</option>
+                    <option value="THA" id="option-color">Thailand</option>
+                    <option value="TTO" id="option-color">Trinidad and Tobago</option>
+                    <option value="TUN" id="option-color">Tunisia</option>
+                    <option value="TUR" id="option-color">Turkey</option>
+                    <option value="TKM" id="option-color">Turkmenistan</option>
+                    <option value="UKR" id="option-color">Ukraine</option>
+                    <option value="ARE" id="option-color">United Arab Emirates</option>
+                    <option value="GBR" id="option-color">United Kingdom</option>
+                    <option value="USA" id="option-color">United States</option>
+                    <option value="URY" id="option-color">Uruguay</option>
+                    <option value="UZB" id="option-color">Uzbekistan</option>
+                    <option value="VEN" id="option-color">Venezuela</option>
+                    <option value="VNM" id="option-color">Vietnam</option>
+                    <option value="001" id="option-color">World</option>
+                    <option value="YEM" id="option-color">Yemen</option>
+                    <option value="ZWE" id="option-color">Zimbabwe</option>
+        
+                </select>
+                <input type="text" class="form-control" placeholder="Battle.net ID">
+                <input type="text" class="form-control" placeholder="Discord">
+                <select size="1" name="TimeZoneList" id="TimeZoneList" class="input">
+                    <option value="Dateline Standard Time" id="option-color">(UTC-12:00) International Date Line West</option>
+                    <option value="UTC-11" id="option-color">(UTC-11:00) Coordinated Universal Time-11</option>
+                    <option value="Aleutian Standard Time" id="option-color">(UTC-10:00) Aleutian Islands</option>
+                    <option value="Hawaiian Standard Time" id="option-color">(UTC-10:00) Hawaii</option>
+                    <option value="Marquesas Standard Time" id="option-color">(UTC-09:30) Marquesas Islands</option>
+                    <option value="Alaskan Standard Time" id="option-color">(UTC-09:00) Alaska</option>
+                    <option value="UTC-09" id="option-color">(UTC-09:00) Coordinated Universal Time-09</option>
+                    <option value="Pacific Standard Time (Mexico)" id="option-color">(UTC-08:00) Baja California</option>
+                    <option value="UTC-08" id="option-color">(UTC-08:00) Coordinated Universal Time-08</option>
+                    <option value="Pacific Standard Time" id="option-color">(UTC-08:00) Pacific Time (US &amp; Canada)</option>
+                    <option value="US Mountain Standard Time" id="option-color">(UTC-07:00) Arizona</option>
+                    <option value="Mountain Standard Time (Mexico)" id="option-color">(UTC-07:00) Chihuahua, La Paz, Mazatlan</option>
+                    <option value="Mountain Standard Time" id="option-color">(UTC-07:00) Mountain Time (US &amp; Canada)</option>
+                    <option value="Yukon Standard Time" id="option-color">(UTC-07:00) Yukon</option>
+                    <option value="Central America Standard Time" id="option-color" id="option-color">(UTC-06:00) Central America</option>
+                    <option value="Central Standard Time" id="option-color">(UTC-06:00) Central Time (US &amp; Canada)</option>
+                    <option value="Easter Island Standard Time" id="option-color">(UTC-06:00) Easter Island</option>
+                    <option value="Central Standard Time (Mexico)" id="option-color">(UTC-06:00) Guadalajara, Mexico City, Monterrey</option>
+                    <option value="Canada Central Standard Time" id="option-color">(UTC-06:00) Saskatchewan</option>
+                    <option value="SA Pacific Standard Time" id="option-color">(UTC-05:00) Bogota, Lima, Quito, Rio Branco</option>
+                    <option value="Eastern Standard Time (Mexico)" id="option-color">(UTC-05:00) Chetumal</option>
+                    <option selected="selected" value="Eastern Standard Time" id="option-color">(UTC-05:00) Eastern Time (US &amp; Canada)</option>
+                    <option value="Haiti Standard Time" id="option-color">(UTC-05:00) Haiti</option>
+                    <option value="Cuba Standard Time" id="option-color">(UTC-05:00) Havana</option>
+                    <option value="US Eastern Standard Time" id="option-color">(UTC-05:00) Indiana (East)</option>
+                    <option value="Turks And Caicos Standard Time" id="option-color">(UTC-05:00) Turks and Caicos</option>
+                    <option value="Paraguay Standard Time" id="option-color">(UTC-04:00) Asuncion</option>
+                    <option value="Atlantic Standard Time" id="option-color">(UTC-04:00) Atlantic Time (Canada)</option>
+                    <option value="Venezuela Standard Time" id="option-color">(UTC-04:00) Caracas</option>
+                    <option value="Central Brazilian Standard Time" id="option-color">(UTC-04:00) Cuiaba</option>
+                    <option value="SA Western Standard Time" id="option-color">(UTC-04:00) Georgetown, La Paz, Manaus, San Juan</option>
+                    <option value="Pacific SA Standard Time" id="option-color">(UTC-04:00) Santiago</option>
+                    <option value="Newfoundland Standard Time" id="option-color">(UTC-03:30) Newfoundland</option>
+                    <option value="Tocantins Standard Time" id="option-color">(UTC-03:00) Araguaina</option>
+                    <option value="E. South America Standard Time" id="option-color">(UTC-03:00) Brasilia</option>
+                    <option value="SA Eastern Standard Time" id="option-color">(UTC-03:00) Cayenne, Fortaleza</option>
+                    <option value="Argentina Standard Time" id="option-color">(UTC-03:00) City of Buenos Aires</option>
+                    <option value="Greenland Standard Time" id="option-color">(UTC-03:00) Greenland</option>
+                    <option value="Montevideo Standard Time" id="option-color">(UTC-03:00) Montevideo</option>
+                    <option value="Magallanes Standard Time" id="option-color">(UTC-03:00) Punta Arenas</option>
+                    <option value="Saint Pierre Standard Time" id="option-color">(UTC-03:00) Saint Pierre and Miquelon</option>
+                    <option value="Bahia Standard Time" id="option-color">(UTC-03:00) Salvador</option>
+                    <option value="UTC-02" id="option-color">(UTC-02:00) Coordinated Universal Time-02</option>
+                    <option value="Mid-Atlantic Standard Time" id="option-color">(UTC-02:00) Mid-Atlantic - Old</option>
+                    <option value="Azores Standard Time" id="option-color">(UTC-01:00) Azores</option>
+                    <option value="Cape Verde Standard Time" id="option-color">(UTC-01:00) Cabo Verde Is.</option>
+                    <option value="UTC" id="option-color">(UTC) Coordinated Universal Time</option>
+                    <option value="GMT Standard Time" id="option-color">(UTC+00:00) Dublin, Edinburgh, Lisbon, London</option>
+                    <option value="Greenwich Standard Time" id="option-color">(UTC+00:00) Monrovia, Reykjavik</option>
+                    <option value="Sao Tome Standard Time" id="option-color">(UTC+00:00) Sao Tome</option>
+                    <option value="Morocco Standard Time" id="option-color">(UTC+01:00) Casablanca</option>
+                    <option value="W. Europe Standard Time" id="option-color">(UTC+01:00) Amsterdam, Berlin, Bern, Rome, Stockholm, Vienna</option>
+                    <option value="Central Europe Standard Time" id="option-color">(UTC+01:00) Belgrade, Bratislava, Budapest, Ljubljana, Prague</option>
+                    <option value="Romance Standard Time" id="option-color">(UTC+01:00) Brussels, Copenhagen, Madrid, Paris</option>
+                    <option value="Central European Standard Time" id="option-color">(UTC+01:00) Sarajevo, Skopje, Warsaw, Zagreb</option>
+                    <option value="W. Central Africa Standard Time" id="option-color">(UTC+01:00) West Central Africa</option>
+                    <option value="GTB Standard Time" id="option-color">(UTC+02:00) Athens, Bucharest</option>
+                    <option value="Middle East Standard Time" id="option-color">(UTC+02:00) Beirut</option>
+                    <option value="Egypt Standard Time" id="option-color">(UTC+02:00) Cairo</option>
+                    <option value="E. Europe Standard Time" id="option-color">(UTC+02:00) Chisinau</option>
+                    <option value="Syria Standard Time" id="option-color">(UTC+02:00) Damascus</option>
+                    <option value="West Bank Standard Time" id="option-color">(UTC+02:00) Gaza, Hebron</option>
+                    <option value="South Africa Standard Time" id="option-color">(UTC+02:00) Harare, Pretoria</option>
+                    <option value="FLE Standard Time" id="option-color">(UTC+02:00) Helsinki, Kyiv, Riga, Sofia, Tallinn, Vilnius</option>
+                    <option value="Israel Standard Time" id="option-color">(UTC+02:00) Jerusalem</option>
+                    <option value="South Sudan Standard Time" id="option-color">(UTC+02:00) Juba</option>
+                    <option value="Kaliningrad Standard Time" id="option-color">(UTC+02:00) Kaliningrad</option>
+                    <option value="Sudan Standard Time" id="option-color">(UTC+02:00) Khartoum</option>
+                    <option value="Libya Standard Time" id="option-color">(UTC+02:00) Tripoli</option>
+                    <option value="Namibia Standard Time" id="option-color">(UTC+02:00) Windhoek</option>
+                    <option value="Jordan Standard Time" id="option-color">(UTC+03:00) Amman</option>
+                    <option value="Arabic Standard Time" id="option-color">(UTC+03:00) Baghdad</option>
+                    <option value="Turkey Standard Time" id="option-color">(UTC+03:00) Istanbul</option>
+                    <option value="Arab Standard Time" id="option-color">(UTC+03:00) Kuwait, Riyadh</option>
+                    <option value="Belarus Standard Time" id="option-color">(UTC+03:00) Minsk</option>
+                    <option value="Russian Standard Time" id="option-color">(UTC+03:00) Moscow, St. Petersburg</option>
+                    <option value="E. Africa Standard Time" id="option-color">(UTC+03:00) Nairobi</option>
+                    <option value="Volgograd Standard Time" id="option-color">(UTC+03:00) Volgograd</option>
+                    <option value="Iran Standard Time" id="option-color">(UTC+03:30) Tehran</option>
+                    <option value="Arabian Standard Time" id="option-color">(UTC+04:00) Abu Dhabi, Muscat</option>
+                    <option value="Astrakhan Standard Time" id="option-color">(UTC+04:00) Astrakhan, Ulyanovsk</option>
+                    <option value="Azerbaijan Standard Time" id="option-color">(UTC+04:00) Baku</option>
+                    <option value="Russia Time Zone 3" id="option-color">(UTC+04:00) Izhevsk, Samara</option>
+                    <option value="Mauritius Standard Time" id="option-color">(UTC+04:00) Port Louis</option>
+                    <option value="Saratov Standard Time" id="option-color">(UTC+04:00) Saratov</option>
+                    <option value="Georgian Standard Time" id="option-color">(UTC+04:00) Tbilisi</option>
+                    <option value="Caucasus Standard Time" id="option-color">(UTC+04:00) Yerevan</option>
+                    <option value="Afghanistan Standard Time" id="option-color">(UTC+04:30) Kabul</option>
+                    <option value="West Asia Standard Time" id="option-color">(UTC+05:00) Ashgabat, Tashkent</option>
+                    <option value="Ekaterinburg Standard Time" id="option-color">(UTC+05:00) Ekaterinburg</option>
+                    <option value="Pakistan Standard Time" id="option-color">(UTC+05:00) Islamabad, Karachi</option>
+                    <option value="Qyzylorda Standard Time" id="option-color">(UTC+05:00) Qyzylorda</option>
+                    <option value="India Standard Time" id="option-color">(UTC+05:30) Chennai, Kolkata, Mumbai, New Delhi</option>
+                    <option value="Sri Lanka Standard Time" id="option-color">(UTC+05:30) Sri Jayawardenepura</option>
+                    <option value="Nepal Standard Time" id="option-color">(UTC+05:45) Kathmandu</option>
+                    <option value="Central Asia Standard Time" id="option-color">(UTC+06:00) Astana</option>
+                    <option value="Bangladesh Standard Time" id="option-color">(UTC+06:00) Dhaka</option>
+                    <option value="Omsk Standard Time" id="option-color">(UTC+06:00) Omsk</option>
+                    <option value="Myanmar Standard Time" id="option-color">(UTC+06:30) Yangon (Rangoon)</option>
+                    <option value="SE Asia Standard Time" id="option-color">(UTC+07:00) Bangkok, Hanoi, Jakarta</option>
+                    <option value="Altai Standard Time" id="option-color">(UTC+07:00) Barnaul, Gorno-Altaysk</option>
+                    <option value="W. Mongolia Standard Time" id="option-color">(UTC+07:00) Hovd</option>
+                    <option value="North Asia Standard Time" id="option-color">(UTC+07:00) Krasnoyarsk</option>
+                    <option value="N. Central Asia Standard Time" id="option-color">(UTC+07:00) Novosibirsk</option>
+                    <option value="Tomsk Standard Time" id="option-color">(UTC+07:00) Tomsk</option>
+                    <option value="China Standard Time" id="option-color">(UTC+08:00) Beijing, Chongqing, Hong Kong, Urumqi</option>
+                    <option value="North Asia East Standard Time" id="option-color">(UTC+08:00) Irkutsk</option>
+                    <option value="Singapore Standard Time" id="option-color">(UTC+08:00) Kuala Lumpur, Singapore</option>
+                    <option value="W. Australia Standard Time" id="option-color">(UTC+08:00) Perth</option>
+                    <option value="Taipei Standard Time" id="option-color">(UTC+08:00) Taipei</option>
+                    <option value="Ulaanbaatar Standard Time" id="option-color">(UTC+08:00) Ulaanbaatar</option>
+                    <option value="Aus Central W. Standard Time" id="option-color">(UTC+08:45) Eucla</option>
+                    <option value="Transbaikal Standard Time" id="option-color">(UTC+09:00) Chita</option>
+                    <option value="Tokyo Standard Time" id="option-color">(UTC+09:00) Osaka, Sapporo, Tokyo</option>
+                    <option value="North Korea Standard Time" id="option-color">(UTC+09:00) Pyongyang</option>
+                    <option value="Korea Standard Time" id="option-color">(UTC+09:00) Seoul</option>
+                    <option value="Yakutsk Standard Time" id="option-color">(UTC+09:00) Yakutsk</option>
+                    <option value="Cen. Australia Standard Time" id="option-color">(UTC+09:30) Adelaide</option>
+                    <option value="AUS Central Standard Time" id="option-color">(UTC+09:30) Darwin</option>
+                    <option value="E. Australia Standard Time" id="option-color">(UTC+10:00) Brisbane</option>
+                    <option value="AUS Eastern Standard Time" id="option-color">(UTC+10:00) Canberra, Melbourne, Sydney</option>
+                    <option value="West Pacific Standard Time" id="option-color">(UTC+10:00) Guam, Port Moresby</option>
+                    <option value="Tasmania Standard Time" id="option-color">(UTC+10:00) Hobart</option>
+                    <option value="Vladivostok Standard Time" id="option-color">(UTC+10:00) Vladivostok</option>
+                    <option value="Lord Howe Standard Time" id="option-color">(UTC+10:30) Lord Howe Island</option>
+                    <option value="Bougainville Standard Time" id="option-color">(UTC+11:00) Bougainville Island</option>
+                    <option value="Russia Time Zone 10" id="option-color">(UTC+11:00) Chokurdakh</option>
+                    <option value="Magadan Standard Time" id="option-color">(UTC+11:00) Magadan</option>
+                    <option value="Norfolk Standard Time" id="option-color">(UTC+11:00) Norfolk Island</option>
+                    <option value="Sakhalin Standard Time" id="option-color">(UTC+11:00) Sakhalin</option>
+                    <option value="Central Pacific Standard Time" id="option-color">(UTC+11:00) Solomon Is., New Caledonia</option>
+                    <option value="Russia Time Zone 11" id="option-color">(UTC+12:00) Anadyr, Petropavlovsk-Kamchatsky</option>
+                    <option value="New Zealand Standard Time" id="option-color">(UTC+12:00) Auckland, Wellington</option>
+                    <option value="UTC+12" id="option-color">(UTC+12:00) Coordinated Universal Time+12</option>
+                    <option value="Fiji Standard Time" id="option-color">(UTC+12:00) Fiji</option>
+                    <option value="Kamchatka Standard Time" id="option-color">(UTC+12:00) Petropavlovsk-Kamchatsky - Old</option>
+                    <option value="Chatham Islands Standard Time" id="option-color">(UTC+12:45) Chatham Islands</option>
+                    <option value="UTC+13" id="option-color">(UTC+13:00) Coordinated Universal Time+13</option>
+                    <option value="Tonga Standard Time" id="option-color">(UTC+13:00) Nuku'alofa</option>
+                    <option value="Samoa Standard Time" id="option-color">(UTC+13:00) Samoa</option>
+                    <option value="Line Islands Standard Time" id="option-color">(UTC+14:00) Kiritimati Island</option>
+        
+                </select>
+                <select size="1" name="LangList" id="LangList" class="input" >
+                    <option value="English" id="option-color">English</option>
+                    <option value="Spanish" id="option-color">Spanish</option>
+        
+                </select>
+                <input type="text" class="form-control" placeholder="Password">
+                <input type="text" class="form-control" placeholder="Confirm Password">
+  <div class="w-100"><br></div>
+  <div class="col">
+    <button type="button" class="btn btn-primary">Save</button> <button type="button" class="btn btn-primary">Change Password</button>
+ 
+  </div>
+            </div>
+          </form>
+        </div>
+        </div>
+        </div>
+        </div>
+        </section></main>
+       
+
+ <!--AND BODY TEXT SECSION-->
+
+
+ 
+<!--js links SECSION-->
+<script src="assets/vendor/jquery/jquery.min.js"></script>
+<script src="assets/js/main.js"></script>
+<!--js links and-->
+</body>
+</html>
