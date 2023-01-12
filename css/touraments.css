@@ -7,11 +7,7 @@
     font-weight: normal;
     
     color: gray; 
-    background:
-    
-    linear-gradient(to top left, #ad6301, transparent),
-    linear-gradient(to top right, #f1f09e, transparent);
-background-blend-mode: screen;
+    background: #000232; border: 1px solid; color: #ffff;
 
 }
   
@@ -50,6 +46,7 @@ background-blend-mode: screen;
   
   .login-wrap {
     position: relative;
+    border: 1px solid;
     background: #000232;
     border-radius: 5px;
     padding-left: 30px;
